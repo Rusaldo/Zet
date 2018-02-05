@@ -1,0 +1,112 @@
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 9.5px;
+	}
+	.member__pic {
+		max-height: 48%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	html {
+		font-size: 9px;
+	}
+	.contacts {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 8.5px;
+	}
+	.services__service {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 46%;
+		        flex: 1 1 46%;
+	}
+	.team__member {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 46%;
+		        flex: 1 1 46%;
+	}
+	.member__pic {
+		max-height: 60%;
+	}
+	.prices__packs {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.packs__pack:not(:last-child) {
+		border-right: 1px solid rgba(200,200,200,0.5);
+	}
+	.packs__pack {
+		margin-bottom: 4rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 8.5px;
+	}
+	.services__service {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 100%;
+		        flex: 1 1 100%;
+	}
+	.team__member {
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 100%;
+		        flex: 1 1 100%;
+	}
+	.team__member > h4 {
+		font-size: 2.8rem;
+	}
+	.team__member > small {
+		font-size: 1.8rem;
+	}
+	.member__sm {
+		font-size: 3rem;
+	}
+	form.feedback {
+		width: 100%;
+	}
+	form.feedback > section {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-ms-align-items: flex-start;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+	}
+	#feedback__name,
+	#feedback__email,
+	#feedback__phone,
+	#feedback__message {
+		min-width: auto;
+		width: 93%;
+	}
+	.footer > .wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.footer__left > a,
+	.footer__right > small {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	html {
+		font-size: 7px;
+	}
+}
